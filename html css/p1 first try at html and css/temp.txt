@@ -1,0 +1,13 @@
+so i am doing a little experiment, and amidst the experiment there is no chickening out. 
+so basically i'll blindly follow the practise project without really understanding the concepts and syntax
+just mimicking the project and in the next 5 projects i'll google every thing after each project and see
+whats best for learning
+
+
+<pr>
+          before we embark on our journey to find " what is happiness", i have a
+          quick question for you. when you were really angry the last time, were
+          you asking yourself "am i finally angry now ? ". i bet you didn't .
+          thats because such is the very nature of feelings they are byproduct
+          of something else. it and itself their search's quest is futile.
+        </pr>

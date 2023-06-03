@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#navBar{
+position: sticky;
+top: 0;
+z-index: 10;
+}
+.navbar{
+    box-sizing: border-box;
+    min-height: 7vh;
+    background-image: linear-gradient(to right,#b11ec8de,#5e1782);
+    padding: 0 !important;
+    /* !important overrides all parent property */
+    
+}
+#logo{
+    height: 5vh;
+    /* max-width: 5vw; */
+}
+.navbar-nav li{
+padding: 0 10px;
+}
+.navbar-nav li a{
+color: white;
+font-weight: 600;
+}
+.navbar-nav li a:hover{
+    color: bla;
+    border-bottom: white solid 2px;
+}
+.navbar-toggler:focus{
+box-shadow: 0 0 0 1.5px;
+}
+.fa-bars{
+    font-size: 1rem;
+    color: white;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* ------banner section----------- */
+
+#banner{
+    background-image: linear-gradient(to right,#b11ec8de,#5e1782);
+    color: white;
+    padding-top: 1rem;
+}
+.play-btn{
+    width: 45px;
+    margin: 25px;
+}
+#banner a{
+color: white;
+text-decoration: none;
+}
+#heading >h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#heading >p{
+    font-size: larger;
+    font-style: italic;
+}
+.wave_image{
+    width: 100%;
+}
+
+/* -----------services section------------ */
+#services{
+    padding: 80px 0px;
+}
+.service-img{
+width: 30%;
+margin-top: 20px;
+}
+.services h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tittle{
+    color: #5e1782;
+    border-bottom:2px solid #5e1782;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-decoration:none;
+}
+.service_btn{
+background-image: linear-gradient(to right,#b11ec8de,#5e1782);
+margin-top: 1rem;
+padding :.7rem 1.2rem;
+border: none;
+border-radius: 20px !important;
+ }
+/*--------about us section --------------*/
+.about_us{
+    background-color: #d8dcdf !important;
+    padding: 1rem .5rem;
+    
+}
+.about_title{
+   
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.testimonials{
+    margin-top: 1rem;
+    border-left:solid 4px #7b1798
+}
+.testimonials img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+    margin: 1rem 0 ;
+    padding-left: 0;
+    
+}
+.user_details{
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+/* -------------social media section -------*/
+#social_media{
+    background-color: #f8f9fa !important;
+}
+#social_media p{
+    font-size: 2rem;
+}
+.social_icons img{
+    margin: 0 .5rem;
+    width: 5rem;
+    transition: .3s;
+}
+.social_icons a:hover img{
+    transform:translateY(-1rem);
+    border-radius: 50%;
+    box-shadow: 4px 10px 10px   black;
+}
+
+/* <!---------- footer section ----------> */
+#footer{
+    background-image: linear-gradient(to right,#b11ec8de,#5e1782);
+    color: white;
+}
+.footer_img{
+    width: 100%; 
+}
+
+.footer_box{
+padding: 1.2rem;
+}
+
+.footer_box img{
+    width: 4rem;
+    min-height: 6rem;
+}
+
+.footer_box .fa{
+height: 2.5rem;
+width: 2.5rem;
+padding: .5rem;
+margin-right: .7rem;
+font-size: 1.5rem;
+text-align: center;
+background-image: linear-gradient(to right,#b11ec8de,#5e1782);
+}
+.footer_box .btn{
+    border: 2px solid black;
+}

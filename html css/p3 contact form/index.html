@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <form post action="form.js">
+      <!-- there are two attribute in form get and post get selecting means that the user fills form then his credentials 
+      wont be shown in url bar 
+      btw action is used to connect the form to the backend file-->
+      <h1>contact form</h1>
+      <div>
+        NAME:
+        <input
+          placeholder="your name"
+          required
+          type="text"
+          name="name_field"
+          id="c1"
+        />
+      </div>
+      <!-- this helps to fill black space with text see the differance between name and email -->
+      <br />
+
+      <!-- note the name first attribute is for backend meaning when the user writes data 
+      in the text field it'll be saved as name_field in backend sever but id is to choose this particular tag
+      as it was before --><br />
+      <div>
+        <label for="c2">Email</label>
+        <!-- instead of writing in open its better to write the heading i.e name mail inside label -->
+        <input required type="email" name="email" id="c2" />
+      </div>
+      <br />
+
+      <!-- note if we dont use the div tag it'll all come onto the same line beacuse all 
+      of them are inline elements so we are forcefully making them block elements 
+      see the example below-->
+
+      Phone number
+      <input required type="number" name="phone_number" id="c3" /> pincode
+      <input type="number" name="pincode" id="c4" /><br />
+
+      <br />
+      <div>
+        Message :<textarea
+          placeholder="write your message here"
+          required
+          name="address"
+          id="c5"
+          cols="50"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+
+      <!-- we use text area when we want more area  we can customise the size by varying column
+      and row-->
+
+      <div>
+        Gender:<select required name="user_gender" id="c6">
+          <option value="">select one</option>
+          <!-- this is for default shouldnt be among the three below options -->
+          <option value="male">MALE</option>
+          <option value="female">FEMALE</option>
+          <option value="trans">TRANS</option>
+          <!-- the use of value here is whatever the user chooses then corresponding value will
+        be sent to backend with name : user_gender -->
+        </select>
+      </div>
+      <br />
+      <div>
+        frontend<input required type="checkbox" name="course" id="c7" />
+        backend<input type="checkbox" name="course" id="c8" />
+        <!-- the required attribute is used to make the filling of boxes mandatory
+       to submit the form -->
+      </div>
+      <br />
+
+      <fieldset>
+        <!-- feild set bring the border as you can see
+        and legend makes you write on the border -->
+        <legend>mode of payment</legend>
+        cash : <input required type="radio" name="payment" id="c9" /> bank :
+        <input required type="radio" name="payment" id="c10" />
+      </fieldset>
+      <br />
+      <div>
+        password :
+        <input
+          placeholder="enter your password here"
+          required
+          type="password"
+          name="password"
+          id="c11"
+        />
+      </div>
+      <br />
+      <div>
+        <input required type="submit" value="submit the form" />
+      </div>
+
+      <!-- submit input tag me value means jo us button par dikhega likha hua user ko -->
+    </form>
+  </body>
+</html>

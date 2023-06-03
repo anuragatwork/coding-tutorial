@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    box-sizing: border-box;
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 18vh 20vh  40vh 18vh ;
+    grid-template-columns: repeat(3,1fr) 15vw;
+    grid-gap: 2vmin;
+}
+.box{
+    color: white;
+}
+#header{
+    background-color: bisque;
+    grid-column: 1/-1;
+    /* 1/-1 will make the header span all column */
+}
+#box2{
+    background-color:orange;
+}
+#box3{
+    background-color:green;
+}
+#box4{
+    background-color:darkgoldenrod;
+}
+#sidebar{
+    background-color:salmon;
+    grid-row: 2/span 2;
+    grid-column: 4/5;
+}
+#main{
+    background-color:blueviolet;
+    grid-column: 1/span 3;
+}
+#footer{
+    background-color:black;
+    grid-column: 1/-1;
+}
+

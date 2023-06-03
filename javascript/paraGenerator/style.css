@@ -1,0 +1,52 @@
+*{
+    margin: 0;padding: 0;
+    background-color: rgb(50, 47, 47);
+}
+.container{
+    width: 80vw;
+    margin: auto;
+    min-height: 100vh;
+    background-color: white;
+    padding: 7vmin 5vmin;
+    /* border:red solid 2px; */
+    box-sizing:border-box;
+}
+h1{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paras{
+    background-color: rgb(230, 227, 224);
+    letter-spacing: .1vmin;
+    word-spacing: .25vmin;
+    padding:1vmin;
+    border-radius: 10px;
+    margin: 3vmax 1vmax;
+}
+#noOfWords{
+    background-color: aliceblue;
+    color: black;
+    padding: 2%;
+    border:1px solid rgb(174, 170, 170);
+   margin-top: 2vmin;
+   margin-left: 3vmin;
+   width: 50%;
+   font-size:  1.2rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+button{
+    color:white;
+    background-color: dodgerblue;
+    padding:1.5%;
+    margin-top: 2vmin;
+   margin-left: 3vmin;
+   font-size:  1.2rem; 
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+button:hover{
+    background-color: darkblue;
+}
